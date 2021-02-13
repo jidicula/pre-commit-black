@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/psf/black
-    rev: 20.8b1
+    rev: b8c1020b526b488a1a216d9a4d58fc8616b61a99
     hooks:
       - id: black
         language_version: python3
