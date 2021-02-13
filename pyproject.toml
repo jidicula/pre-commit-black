@@ -8,7 +8,11 @@ exclude = '''
   | build
   | dist
   | \.mypy_cache
-  | ignored                     # files in this dir should be ignored
+)\
+'''
+force-exclude = '''
+/(
+   ignored                     # files in this dir are ignored
 )\
 '''
 
