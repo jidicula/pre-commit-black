@@ -1,5 +1,7 @@
 # pre-commit-black
-Minimal example of Black pre-commit hook failing to respect pyproject.toml exclude rule
+Minimal example of Black pre-commit hook failing to respect pyproject.toml exclude rule.
+
+The `main` branch uses black 20.8b2. The `master-black` branch uses black's `master` branch.
 
 # To run
 1. `poetry install`
